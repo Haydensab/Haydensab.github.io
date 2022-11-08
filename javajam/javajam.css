@@ -13,13 +13,13 @@ body {
     
     header {
         background-color: #D2B48C;
-        background-image: url(images/cup.jpg);
-        background-repeat: no-repeat;
-        color: #231814;
-        height: 128px;
-        padding-left: 105px;
-        padding-top: 5px;
-        padding-bottom: 5px;
+	background-image: url(images/cup.jpg);
+	background-repeat: no-repeat;
+	color: #231814;
+	height: 128px;
+	padding-left: 105px;
+	padding-top: 5px;
+	padding-bottom: 5px;
     }
 
     header a {
@@ -147,6 +147,12 @@ body {
         background-repeat: no-repeat;
         background-size: 100% 100%;
     }
+    #herojobs {
+        height: 300px;
+        background-image: url(images/coffeecup.jpg);
+        background-repeat: no-repeat;
+        background-size: 100% 100%;
+    }
     
     #mobile {
         display: inline;
@@ -163,7 +169,37 @@ body {
     padding-bottom: 1em;
     border-top: 2px solid #8C3826;
     }
-    @media (min-width: 600px) {
+
+    
+table {
+	margin: auto;
+	width: 90%;
+	border-spacing: 0;
+}
+
+th,
+td {
+	padding: 10px;
+}
+
+tr:nth-of-type(odd) {
+	background-color: #D2B48E;
+}
+
+form {
+	display: flex;
+	flex-direction: column;
+	padding-left: 1em;
+	width: 80%;
+}
+
+input,
+textarea {
+	margin-bottom: .5em;
+}
+
+
+@media (min-width: 600px) {
         header {
             padding-left: 0;
             text-align: center;
